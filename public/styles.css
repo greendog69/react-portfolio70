@@ -1,0 +1,17 @@
+ 
+.footer-bg{
+    background-color: #333;
+}
+
+footer{
+    clear: both;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.App {
+    padding: 20px;
+}

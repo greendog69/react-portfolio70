@@ -1,0 +1,26 @@
+.about_cards{
+    display: flex;justify-content: space-between; align-items: center;
+    flex-wrap: wrap;
+}
+.break{
+    flex-basis: 100%;height: 0;
+}
+@media screen and (max-width:600px){
+    .about_cards{
+        display:block;
+    }
+    .about_cards .about_card{
+        display: block;
+        width: 90%;
+        margin: 15px auto;
+    }
+    .about_image {
+        float:none;
+        margin: 10px auto;
+        display:block;
+
+    }
+    .App p{
+        text-align: center;
+    }
+}
